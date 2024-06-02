@@ -4,9 +4,9 @@ public class EmpleadoTiempoCompleto extends Empleado
     private double salarioAnual;
 
 //constructor
-    public EmpleadoTiempoCompleto(String nombre, String numeroIdentificacion, double salarioAnual)
+    public EmpleadoTiempoCompleto(String nombre, String numeroIdentificacion, String sexo, String departamento, String correo, int edad, int telefono, double salarioAnual)
     {
-        super(nombre, numeroIdentificacion);
+        super(nombre, numeroIdentificacion, sexo, departamento, correo, edad, telefono);
         this.salarioAnual = salarioAnual;
     }
 
